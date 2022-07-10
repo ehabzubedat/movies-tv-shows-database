@@ -1,0 +1,63 @@
+/* body */
+body {
+    background-image: url(../images/bg.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* container */
+.container {
+    margin-top: 10px;
+}
+
+/* title */
+.title {
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    border-radius: 0.25rem;
+}
+
+/* form */
+.form-control:focus,
+.btn:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none !important;
+    outline: none;
+}
+
+.form-control,
+.btn {
+    border: none;
+}
+
+.movie::placeholder {
+    color: rgb(104, 104, 104);
+}
+/* ./form */
+
+/* table img */
+.img-fluid {
+    width: 200px;
+}
+
+/* swal */
+.swal-footer {
+    text-align: center;
+}
+
+.swal-button:focus {
+    box-shadow: none;
+}
+
+button.swal-button.swal-button--confirm {
+    transition: all 500ms;
+    background-color: #00C851;
+}
+
+button.swal-button.swal-button--confirm:hover {
+    background-color: #00a843;
+}
+
+/* ./swal */
