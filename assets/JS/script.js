@@ -18,7 +18,7 @@ $(function () {
             $('#table-body').empty();
             $('#table').removeClass('d-none');
             $.ajax({
-                url: 'http://www.omdbapi.com',
+                url: 'https://www.omdbapi.com',
                 async: false,
                 data: {
                     apikey: 'f9a3a6b5',
